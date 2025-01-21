@@ -49,3 +49,4 @@ export default tseslint.config({
 })
 ```
 # empity_fayl
+# empity_fayl
