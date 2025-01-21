@@ -1,0 +1,10 @@
+{
+    "WelcomeMessage": "Welcome user",
+    "news": [
+      {
+        "title": "Breaking News",
+        "content": "This is the first news content in English."
+      }
+    ]
+  }
+  

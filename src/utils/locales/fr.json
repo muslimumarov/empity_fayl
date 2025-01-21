@@ -1,0 +1,10 @@
+{
+    "WelcomeMessage": "Bienvenue utilisateur",
+    "news": [
+      {
+        "title": "Dernières nouvelles",
+        "content": "Voici le premier contenu des nouvelles en français."
+      }
+    ]
+  }
+  
