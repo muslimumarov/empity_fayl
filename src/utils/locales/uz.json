@@ -1,4 +1,12 @@
 {
-    "WelcomeMessage": "Xush kelibsiz, foydalanuvchi"
-  }
-  
+  "GoodMorning": "Xayrli tong, qalaysiz?",
+  "HaveAGoodDay": "Yaxshi kun tilayman!",
+  "WhereAreYouFrom": "Qayerdansiz?",
+  "NiceToMeetYou": "Tanishganimdan xursandman!",
+  "CanYouHelpMe": "Menga yordam bera olasizmi, iltimos?",
+  "WhatIsYourName": "Ismingiz nima?",
+  "IWouldLikeToLearn": "Yangi ko‘nikmalarni o‘rganishni xohlayman.",
+  "IAmLearningProgramming": "Bo‘sh vaqtimda dasturlashni o‘rganayapman.",
+  "TheWeatherIsBeautiful": "Bugun ob-havo ajoyib, shunday emasmi?",
+  "IAmGratefulForYourHelp": "Yordamingiz va qo‘llab-quvvatlashingiz uchun minnatdorman."
+}

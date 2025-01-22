@@ -1,4 +1,12 @@
 {
-    "WelcomeMessage": "Welcome user"
-  }
-  
+  "GoodMorning": "Good morning, how are you?",
+  "HaveAGoodDay": "Have a good day!",
+  "WhereAreYouFrom": "Where are you from?",
+  "NiceToMeetYou": "Nice to meet you!",
+  "CanYouHelpMe": "Can you help me, please?",
+  "WhatIsYourName": "What is your name?",
+  "IWouldLikeToLearn": "I would like to learn new skills.",
+  "IAmLearningProgramming": "I am learning programming in my free time.",
+  "TheWeatherIsBeautiful": "The weather is beautiful today, isn’t it?",
+  "IAmGratefulForYourHelp": "I am grateful for your help and support."
+}

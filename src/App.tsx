@@ -1,37 +1,36 @@
-import React from "react";
-import { Trans, useTranslation } from "react-i18next"; // useTranslation hook'ini qo'shamiz
-import i18n from "./utils/i18/index"; // Tilni o'zgartirish uchun i18n import qilamiz
+import { useTranslation } from "react-i18next";
 
 function App() {
-  const { i18n } = useTranslation(); // useTranslation hook'ini ishlatamiz
+    const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lang: string): void => {
-    i18n.changeLanguage(lang); // Tilni o'zgartirish
-  };
+    const changeLanguage = (lang: string) => {
+        i18n.changeLanguage(lang); // Tilni o'zgartirish
+    };
 
-  return (
-    <div className="App ml-10 mt-10 flex flex-col items-center">
-      {/* Tilni o'zgartirish uchun select element */}
-      <div className="mb-5">
-        <select
-          className="px-4 py-2 border-2 border-yellow-500 text-gray-800 bg-white rounded"
-          onChange={(e) => changeLanguage(e.target.value)}
-          value={i18n.language} // Hozirgi tilni selectda ko'rsatish
-        >
-          <option value="en">English</option>
-          <option value="fr">Français</option>
-          <option value="uz">O'zbekcha</option>
-        </select>
-      </div>
+    return (
+        <div className="App px-72 py-28">
+            {/* Tilni o'zgartirish uchun select */}
+            <select onChange={(e) => changeLanguage(e.target.value)} className="mb-40">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="uz">O‘zbek</option>
+            </select>
 
-      {/* Trans komponenti orqali tarjima qilish */}
-      <div className="p-96">
-        <h1>
-          <Trans i18nKey="WelcomeMessage">Welcome user</Trans>
-        </h1>
-      </div>
-    </div>
-  );
+            {/* Tarjima qilingan so'zlarni ro'yxat */}
+            <ul>
+                <li>{t('GoodMorning')}</li>
+                <li>{t('HaveAGoodDay')}</li>
+                <li>{t('WhereAreYouFrom')}</li>
+                <li>{t('NiceToMeetYou')}</li>
+                <li>{t('CanYouHelpMe')}</li>
+                <li>{t('WhatIsYourName')}</li>
+                <li>{t('IWouldLikeToLearn')}</li>
+                <li>{t('IAmLearningProgramming')}</li>
+                <li>{t('TheWeatherIsBeautiful')}</li>
+                <li>{t('IAmGratefulForYourHelp')}</li>
+            </ul>
+        </div>
+    );
 }
 
 export default App;

@@ -1,4 +1,12 @@
 {
-    "WelcomeMessage": "Bienvenue utilisateur"
+    "GoodMorning": "Доброе утро, как дела?",
+    "HaveAGoodDay": "Хорошего дня!",
+    "WhereAreYouFrom": "Откуда вы?",
+    "NiceToMeetYou": "Приятно познакомиться!",
+    "CanYouHelpMe": "Вы можете мне помочь, пожалуйста?",
+    "WhatIsYourName": "Как вас зовут?",
+    "IWouldLikeToLearn": "Я хотел бы изучить новые навыки.",
+    "IAmLearningProgramming": "Я изучаю программирование в свободное время.",
+    "TheWeatherIsBeautiful": "Сегодня прекрасная погода, не так ли?",
+    "IAmGratefulForYourHelp": "Я благодарен за вашу помощь и поддержку."
 }
-  
