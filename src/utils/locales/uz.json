@@ -1,10 +1,4 @@
 {
-    "WelcomeMessage": "Xush kelibsiz, foydalanuvchi",
-    "news": [
-      {
-        "title": "Oxirgi yangilik",
-        "content": "Bu o'zbek tilidagi birinchi yangilik."
-      }
-    ]
+    "WelcomeMessage": "Xush kelibsiz, foydalanuvchi"
   }
   
