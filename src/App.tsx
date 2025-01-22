@@ -14,6 +14,7 @@ function App() {
                 <option value="en">English</option>
                 <option value="ru">Русский</option>
                 <option value="uz">O‘zbek</option>
+
             </select>
 
             {/* Tarjima qilingan so'zlarni ro'yxat */}
